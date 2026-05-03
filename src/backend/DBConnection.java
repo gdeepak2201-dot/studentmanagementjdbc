@@ -11,7 +11,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/school",
                     "root",
-                    "12341234");
+                    "12341234");  
         } catch (Exception e) {
             System.out.println("Connection Failed: " + e.getMessage());
         }
